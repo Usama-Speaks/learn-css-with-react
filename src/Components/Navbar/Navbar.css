@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    background-color: transparent; 
+}
+.nav > .navlinks {
+    display: inline-flex;
+    
+    border: 10px;
+    width:70% ;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+.nav .navlinks .content{
+    
+    padding-left: 2px;
+    color: rgb(209, 133, 32);
+    font-size:larger;
+    
+}
+.content span{
+    padding: 5px;
+}
+.nav > .navlinks > .logo{
+    
+    margin-bottom: -28px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .nav > .navlinks > .icons span{
+        width: 12%;
+        padding: 5px;
+}
+@media screen and (max-width:768px) {
+    .nav > .navlinks > .icons span{
+        display: none;
+        width: 12%;
+        padding: 5px;
+}
+
+}

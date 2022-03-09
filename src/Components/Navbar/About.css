@@ -1,0 +1,47 @@
+.h1{
+    color: rgb(209, 133, 32);
+    font-family: MYcharacter;
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display:grid;
+    grid-template-columns:50% auto;
+    column-gap: 10px;
+}
+.grid > .col1{
+    width:90%;
+    
+    
+}
+.grid > .col2 > h1{
+    font-family: MYcharacter;
+    font-size: larger;
+    color: rgb(209, 133, 32);
+    text-align: left;
+
+}
+.grid > .col2 > p {
+    color: aliceblue;
+}
+.image{
+    margin-top:5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+.giff{
+    border-radius: 3%;
+    width: 100%;
+    
+}
+@media  screen and (max-width:768px) {
+    .grid{
+        display:grid;
+        grid-template-columns:auto;
+        column-gap: 10px;
+    }
+    
+}
